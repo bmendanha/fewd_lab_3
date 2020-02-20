@@ -34,3 +34,8 @@ function shout(){
 }
 console.log(shout()+shout());
 
+var double=function(name){
+    return name + ' and '+ name;
+}
+var x=double('Roy');
+console.log(x);
