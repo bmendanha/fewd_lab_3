@@ -39,3 +39,13 @@ var double=function(name){
 }
 var x=double('Roy');
 console.log(x);
+
+function doSomething(name){
+console.log('Bruno');
+}
+doSomething();
+
+function multiplyFive(5){
+return 
+}
+console.log
