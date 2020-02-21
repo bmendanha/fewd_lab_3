@@ -50,4 +50,3 @@ function multiplyFive(value,fixed) {
     //product=value*fixed;
  return value*fixed;
 }
-console.log(multiplyFive(10));
