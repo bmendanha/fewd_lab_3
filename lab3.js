@@ -40,12 +40,14 @@ var double=function(name){
 var x=double('Roy');
 console.log(x);
 
-function doSomething(name){
+function doSomething(name2) {
 console.log('Bruno');
 }
 doSomething();
 
-function multiplyFive(5){
-return 
+function multiplyFive(value,fixed) {
+    fixed=5;
+    //product=value*fixed;
+ return value*fixed;
 }
-console.log
+console.log(multiplyFive(10));
